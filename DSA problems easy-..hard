@@ -16,3 +16,107 @@ int main()
     }
     return 0;
 }
+
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Take name as input and print a greeting message for that particular name.
+
+
+#include <iostream>
+using namespace std;
+
+
+int main()
+{
+    int T;
+    string name;
+    cin>>T;
+    while(T--)
+    {
+        cin>>name;
+        cout<<"Good afternoon "<<name<<", it's a pleasure to meet you"<<endl;
+    }
+    return 0;
+}
+
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+//Write a program to input principal, time, and rate (P, T, R) from the user and find Simple Interest.
+
+
+
+
+#include <iostream>
+using namespace std;
+
+
+int main()
+{
+    int T,p,t;
+    float r;
+    cin>>T;
+    while(T--)
+    {
+        cin>>p>>r>>t;
+        cout<<(p*r*t)/2<<endl;
+    }
+    return 0;
+}
+
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
