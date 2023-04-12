@@ -229,4 +229,86 @@ int main() {
 }
 
 
+//STARTER 85 IPL
 
+#include <cstdlib>
+#include <iostream>
+using namespace std;
+
+int main() {
+	int T,N,M;
+	cin>>T;
+	while(T--)
+	{
+	    cin>>N>>M;
+	    if (N>=M){
+	    cout<<abs(N-M)<<endl;
+	    }
+	    else{
+	        cout<<0<<endl;
+	    }
+	}
+	return 0;
+}
+
+
+
+//STARTER 85 CanChef
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	int T,X,Y;
+	cin>>T;
+	while(T--)
+	{
+	    cin>>X>>Y;
+	    if(X*15>=2*Y)
+	        cout<<"YES"<<endl;
+	    else
+	        cout<<"NO"<<endl;
+	    
+	}
+	return 0;
+}
+
+
+
+//STARTER 85 Inside the Stadium
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	int T,N,A,R,flag;
+	cin>>T;
+	while(T--)
+	{
+	    cin>>N;
+	    R=0;
+	    flag=0;
+	    int arr[N];
+	    for(int i=0;i<N;i++)
+	    {
+	 
+	        cin>>A;
+	        arr[i] = A;
+	        R=R+A;
+	        if((i+1)==R)
+	        {
+	            flag++;
+	        }
+	    }
+	    
+	    cout<<flag<<endl;
+	}
+	
+	return 0;
+}
+
+
+
+
+//
